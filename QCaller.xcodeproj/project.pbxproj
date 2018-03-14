@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB6D0218C4670ACD4EDC865 /* Pods_QCaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24614AE4F9B106F84C376B5A /* Pods_QCaller.framework */; };
+		5C0432F220481CE700DDF1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0432F120481CE700DDF1A4 /* AppDelegate.swift */; };
+		5C0432F420481CE700DDF1A4 /* FirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0432F320481CE700DDF1A4 /* FirstLaunch.swift */; };
+		5C0432F720481CE700DDF1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C0432F520481CE700DDF1A4 /* Main.storyboard */; };
+		5C0432F920481CE700DDF1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0432F820481CE700DDF1A4 /* Assets.xcassets */; };
+		5C04330520481D2E00DDF1A4 /* QCallerLS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C04330420481D2E00DDF1A4 /* QCallerLS.storyboard */; };
+		5C04330720481D8A00DDF1A4 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04330620481D8A00DDF1A4 /* MainMenu.swift */; };
+		5C0433092048344300DDF1A4 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0433082048344300DDF1A4 /* QRCode.swift */; };
+		5C04330B2048345800DDF1A4 /* RestaurantCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04330A2048345800DDF1A4 /* RestaurantCode.swift */; };
+		5C04330D2048346800DDF1A4 /* RecentRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04330C2048346800DDF1A4 /* RecentRestaurants.swift */; };
+		5C04330F2048347A00DDF1A4 /* QCallerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04330E2048347A00DDF1A4 /* QCallerSettings.swift */; };
+		5C04331520484D3B00DDF1A4 /* ReservationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04331420484D3B00DDF1A4 /* ReservationModel.swift */; };
+		5C04331720484D4D00DDF1A4 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04331620484D4D00DDF1A4 /* CustomerModel.swift */; };
+		5C04331920484D6500DDF1A4 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04331820484D6500DDF1A4 /* RestaurantModel.swift */; };
+		5C04331B20484E2C00DDF1A4 /* ReservationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04331A20484E2C00DDF1A4 /* ReservationStatus.swift */; };
+		5C083AC42050371800FAE271 /* JsonPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C083AC32050371800FAE271 /* JsonPost.swift */; };
+		5C083AC820503E0900FAE271 /* QCallerEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C083AC720503E0900FAE271 /* QCallerEncode.swift */; };
+		5C7D36C6204DACA400C09093 /* ReturnValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7D36C5204DACA400C09093 /* ReturnValue.swift */; };
+		5C8945A6205073300080A557 /* JsonSerializerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8945A5205073300080A557 /* JsonSerializerExtensions.swift */; };
+		5C8945A82050AE0C0080A557 /* PostsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8945A72050AE0C0080A557 /* PostsStruct.swift */; };
+		5CB26D042059019B00808151 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CB26D032059019B00808151 /* GoogleService-Info.plist */; };
+		5CEF36F120523AC200DBB88F /* ReservationSubmitted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF36F020523AC200DBB88F /* ReservationSubmitted.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C868DFF20B6551D9E4C52F4 /* Pods-QCaller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCaller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QCaller/Pods-QCaller.debug.xcconfig"; sourceTree = "<group>"; };
+		24614AE4F9B106F84C376B5A /* Pods_QCaller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QCaller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B24B34E5B82299C8280157D /* Pods-QCaller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCaller.release.xcconfig"; path = "Pods/Target Support Files/Pods-QCaller/Pods-QCaller.release.xcconfig"; sourceTree = "<group>"; };
+		5C0432EE20481CE700DDF1A4 /* QCaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0432F120481CE700DDF1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C0432F320481CE700DDF1A4 /* FirstLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunch.swift; sourceTree = "<group>"; };
+		5C0432F620481CE700DDF1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C0432F820481CE700DDF1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C0432FD20481CE700DDF1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C04330420481D2E00DDF1A4 /* QCallerLS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QCallerLS.storyboard; sourceTree = "<group>"; };
+		5C04330620481D8A00DDF1A4 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		5C0433082048344300DDF1A4 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		5C04330A2048345800DDF1A4 /* RestaurantCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCode.swift; sourceTree = "<group>"; };
+		5C04330C2048346800DDF1A4 /* RecentRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentRestaurants.swift; sourceTree = "<group>"; };
+		5C04330E2048347A00DDF1A4 /* QCallerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCallerSettings.swift; sourceTree = "<group>"; };
+		5C04331420484D3B00DDF1A4 /* ReservationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationModel.swift; sourceTree = "<group>"; };
+		5C04331620484D4D00DDF1A4 /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		5C04331820484D6500DDF1A4 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		5C04331A20484E2C00DDF1A4 /* ReservationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationStatus.swift; sourceTree = "<group>"; };
+		5C083AC32050371800FAE271 /* JsonPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonPost.swift; sourceTree = "<group>"; };
+		5C083AC720503E0900FAE271 /* QCallerEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCallerEncode.swift; sourceTree = "<group>"; };
+		5C7D36C5204DACA400C09093 /* ReturnValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnValue.swift; sourceTree = "<group>"; };
+		5C8945A5205073300080A557 /* JsonSerializerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonSerializerExtensions.swift; sourceTree = "<group>"; };
+		5C8945A72050AE0C0080A557 /* PostsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsStruct.swift; sourceTree = "<group>"; };
+		5CB26D032059019B00808151 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CEE4C73205913B5009BB13C /* QCaller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QCaller.entitlements; sourceTree = "<group>"; };
+		5CEF36F020523AC200DBB88F /* ReservationSubmitted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationSubmitted.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C0432EB20481CE700DDF1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB6D0218C4670ACD4EDC865 /* Pods_QCaller.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C0432E520481CE700DDF1A4 = {
+			isa = PBXGroup;
+			children = (
+				5C0432F020481CE700DDF1A4 /* QCaller */,
+				5C0432EF20481CE700DDF1A4 /* Products */,
+				C6DF9F04E4BDC3ED0F4DF6B5 /* Pods */,
+				C5530EAE865C2DD8FB9E119F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C0432EF20481CE700DDF1A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C0432EE20481CE700DDF1A4 /* QCaller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C0432F020481CE700DDF1A4 /* QCaller */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE4C73205913B5009BB13C /* QCaller.entitlements */,
+				5CB26D032059019B00808151 /* GoogleService-Info.plist */,
+				5C083AC22050370400FAE271 /* RESTful */,
+				5C04331020484CEB00DDF1A4 /* Models */,
+				5C0432F520481CE700DDF1A4 /* Main.storyboard */,
+				5C0432F120481CE700DDF1A4 /* AppDelegate.swift */,
+				5C0432FD20481CE700DDF1A4 /* Info.plist */,
+				5C04330320481CF900DDF1A4 /* ViewControllers */,
+				5C0432F820481CE700DDF1A4 /* Assets.xcassets */,
+				5C04330420481D2E00DDF1A4 /* QCallerLS.storyboard */,
+				5C8945A72050AE0C0080A557 /* PostsStruct.swift */,
+			);
+			path = QCaller;
+			sourceTree = "<group>";
+		};
+		5C04330320481CF900DDF1A4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C0432F320481CE700DDF1A4 /* FirstLaunch.swift */,
+				5C04330620481D8A00DDF1A4 /* MainMenu.swift */,
+				5C0433082048344300DDF1A4 /* QRCode.swift */,
+				5C04330A2048345800DDF1A4 /* RestaurantCode.swift */,
+				5C04330C2048346800DDF1A4 /* RecentRestaurants.swift */,
+				5C04330E2048347A00DDF1A4 /* QCallerSettings.swift */,
+				5CEF36F020523AC200DBB88F /* ReservationSubmitted.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5C04331020484CEB00DDF1A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C8945A4205073140080A557 /* Extensions */,
+				5C083AC1205036AB00FAE271 /* ReturnValues */,
+				5C04331420484D3B00DDF1A4 /* ReservationModel.swift */,
+				5C04331620484D4D00DDF1A4 /* CustomerModel.swift */,
+				5C04331820484D6500DDF1A4 /* RestaurantModel.swift */,
+				5C04331A20484E2C00DDF1A4 /* ReservationStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C083AC1205036AB00FAE271 /* ReturnValues */ = {
+			isa = PBXGroup;
+			children = (
+				5C7D36C5204DACA400C09093 /* ReturnValue.swift */,
+			);
+			path = ReturnValues;
+			sourceTree = "<group>";
+		};
+		5C083AC22050370400FAE271 /* RESTful */ = {
+			isa = PBXGroup;
+			children = (
+				5C083AC32050371800FAE271 /* JsonPost.swift */,
+				5C083AC720503E0900FAE271 /* QCallerEncode.swift */,
+			);
+			path = RESTful;
+			sourceTree = "<group>";
+		};
+		5C8945A4205073140080A557 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C8945A5205073300080A557 /* JsonSerializerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5530EAE865C2DD8FB9E119F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24614AE4F9B106F84C376B5A /* Pods_QCaller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6DF9F04E4BDC3ED0F4DF6B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C868DFF20B6551D9E4C52F4 /* Pods-QCaller.debug.xcconfig */,
+				5B24B34E5B82299C8280157D /* Pods-QCaller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C0432ED20481CE700DDF1A4 /* QCaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C04330020481CE700DDF1A4 /* Build configuration list for PBXNativeTarget "QCaller" */;
+			buildPhases = (
+				06615EBA7EBAF13ADF49DE91 /* [CP] Check Pods Manifest.lock */,
+				5C0432EA20481CE700DDF1A4 /* Sources */,
+				5C0432EB20481CE700DDF1A4 /* Frameworks */,
+				5C0432EC20481CE700DDF1A4 /* Resources */,
+				0AA241BFFF62343530CAA0E8 /* [CP] Embed Pods Frameworks */,
+				567BE5BFF9ECD87E3D41E043 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCaller;
+			productName = QCaller;
+			productReference = 5C0432EE20481CE700DDF1A4 /* QCaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C0432E620481CE700DDF1A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Arthur Clark";
+				TargetAttributes = {
+					5C0432ED20481CE700DDF1A4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5C0432E920481CE700DDF1A4 /* Build configuration list for PBXProject "QCaller" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C0432E520481CE700DDF1A4;
+			productRefGroup = 5C0432EF20481CE700DDF1A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C0432ED20481CE700DDF1A4 /* QCaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C0432EC20481CE700DDF1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0432F920481CE700DDF1A4 /* Assets.xcassets in Resources */,
+				5CB26D042059019B00808151 /* GoogleService-Info.plist in Resources */,
+				5C0432F720481CE700DDF1A4 /* Main.storyboard in Resources */,
+				5C04330520481D2E00DDF1A4 /* QCallerLS.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06615EBA7EBAF13ADF49DE91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QCaller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0AA241BFFF62343530CAA0E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QCaller/Pods-QCaller-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCaller/Pods-QCaller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		567BE5BFF9ECD87E3D41E043 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCaller/Pods-QCaller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C0432EA20481CE700DDF1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C083AC820503E0900FAE271 /* QCallerEncode.swift in Sources */,
+				5C8945A6205073300080A557 /* JsonSerializerExtensions.swift in Sources */,
+				5CEF36F120523AC200DBB88F /* ReservationSubmitted.swift in Sources */,
+				5C0432F420481CE700DDF1A4 /* FirstLaunch.swift in Sources */,
+				5C0433092048344300DDF1A4 /* QRCode.swift in Sources */,
+				5C04330720481D8A00DDF1A4 /* MainMenu.swift in Sources */,
+				5C04330D2048346800DDF1A4 /* RecentRestaurants.swift in Sources */,
+				5C04331920484D6500DDF1A4 /* RestaurantModel.swift in Sources */,
+				5C7D36C6204DACA400C09093 /* ReturnValue.swift in Sources */,
+				5C04330F2048347A00DDF1A4 /* QCallerSettings.swift in Sources */,
+				5C04330B2048345800DDF1A4 /* RestaurantCode.swift in Sources */,
+				5C8945A82050AE0C0080A557 /* PostsStruct.swift in Sources */,
+				5C04331520484D3B00DDF1A4 /* ReservationModel.swift in Sources */,
+				5C083AC42050371800FAE271 /* JsonPost.swift in Sources */,
+				5C04331720484D4D00DDF1A4 /* CustomerModel.swift in Sources */,
+				5C04331B20484E2C00DDF1A4 /* ReservationStatus.swift in Sources */,
+				5C0432F220481CE700DDF1A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C0432F520481CE700DDF1A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C0432F620481CE700DDF1A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C0432FE20481CE700DDF1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C0432FF20481CE700DDF1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C04330120481CE700DDF1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C868DFF20B6551D9E4C52F4 /* Pods-QCaller.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QCaller/QCaller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4F5G3667P;
+				INFOPLIST_FILE = QCaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clarkmeister.QCaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C04330220481CE700DDF1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B24B34E5B82299C8280157D /* Pods-QCaller.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QCaller/QCaller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4F5G3667P;
+				INFOPLIST_FILE = QCaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clarkmeister.QCaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C0432E920481CE700DDF1A4 /* Build configuration list for PBXProject "QCaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0432FE20481CE700DDF1A4 /* Debug */,
+				5C0432FF20481CE700DDF1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C04330020481CE700DDF1A4 /* Build configuration list for PBXNativeTarget "QCaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C04330120481CE700DDF1A4 /* Debug */,
+				5C04330220481CE700DDF1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C0432E620481CE700DDF1A4 /* Project object */;
+}
